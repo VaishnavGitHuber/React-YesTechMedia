@@ -70,4 +70,18 @@
      import "./App.css" // external css file App.css
      <h1 className='heading'>This is heading</h1>
      ```
+---
 
+#### MODULE 5 : Bootstrap in react
+1. step 1 : install bootstrap using npm
+```
+npm install react-bootstrap bootstrap
+```
+2. step 2 : import bootstrap in App.js or index.js
+```
+import "bootstrap/dist/css/bootstrap.min.css"
+```
+3. step 3 : import required classes
+```
+import {Button, Navbar} from 'react-bootstrap'
+```
