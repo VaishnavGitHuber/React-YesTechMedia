@@ -46,7 +46,7 @@
 
 ---
 
-#### MODULE 3: Components 
+#### MODULE 3 : Components 
 - **Components** (one of many pieces) are used to break the complex UI structures into small managable pieces, can be achieved in 2 ways,
   1. Function Components
   2. Class Components
@@ -54,5 +54,20 @@
 - Create a folder inside **src** folder named components, create Components inside the folder.
 
 ---
-
+#### MODULE 4 : CSS in react
+- There are 3 ways of adding css in react,
+  1. Inline css
+     ```
+     <h1 style={{color='red'}}>This is heading</h1>
+     ```
+  2. using variable
+     ```
+     const styleHeading = {color='red'};
+     <h1 style={styleHeading}>This is heading</h1>
+     ```
+  3. Using external CSS file
+     ```
+     import "./App.css" // external css file App.css
+     <h1 className='heading'>This is heading</h1>
+     ```
 
