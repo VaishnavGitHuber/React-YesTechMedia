@@ -43,3 +43,16 @@
   }
   ```
   also, we can use <React.Fragment></React.Fragment> to achieve this.
+
+---
+
+### MODULE 3: Components 
+- **Components** (one of many pieces) are used to break the complex UI structures into small managable pieces, can be achieved in 2 ways,
+  1. Function Components
+  2. Class Components
+- **rafce** keyboard short cut to create components faster.
+- Create a folder inside **src** folder named components, create Components inside the folder.
+
+---
+
+
