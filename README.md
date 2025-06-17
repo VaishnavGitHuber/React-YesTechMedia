@@ -46,7 +46,7 @@
 
 ---
 
-### MODULE 3: Components 
+#### MODULE 3: Components 
 - **Components** (one of many pieces) are used to break the complex UI structures into small managable pieces, can be achieved in 2 ways,
   1. Function Components
   2. Class Components
