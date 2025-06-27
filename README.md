@@ -85,3 +85,13 @@ import "bootstrap/dist/css/bootstrap.min.css"
 ```
 import {Button, Navbar} from 'react-bootstrap'
 ```
+#### MODULE 6 : Events in react 
+- **Events** are the user actions over the web pages.
+- Events are written as camel case(eg: onClick)
+- examples(onClick, onDoubleClick, onChange, onKeyDown, onMouseOver)
+```
+const clickHandle = () => {
+  alert("You click the mouse")
+  }
+<button onClick = {clickHandle} >Click Me</button>
+```
