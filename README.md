@@ -95,3 +95,25 @@ const clickHandle = () => {
   }
 <button onClick = {clickHandle} >Click Me</button>
 ```
+#### MODULE 7 : useState & Hook function
+- **state** : state is a object that stores **value of the properties of the components** that could change.
+- evert time when state changes, react rerender the component to the browser.
+- **Hook Function** : Hook functions are the special functions that let's you to hook into react features.
+- **useState** is a hook function that **allow to add state to the component**, modify the state of the component.
+```
+import {useState} from 'react'
+
+const [count, setCount] = useState(0) // count - set the current state value, setCount - function to update the state
+```
+#### MODULE 8 : Props(properties) in react 
+- props are the **arguments passed to the react components.**
+- It is similar to the function arguments.
+```
+function App(props){
+  return (
+    <h1>Name: {props.name}</h1>
+    )
+}
+
+<App name={"Vaishnav"} />
+```
